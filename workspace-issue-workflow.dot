@@ -1,0 +1,36 @@
+digraph {
+label="Workspace Problem Action Label Determination Workflow";
+rankdir=TB;
+nodesep=0.3;
+#start
+problem[    label="I have a problem with\nthe workspace.", shape=ellipse]
+
+#questions
+Qbuilding[  label="Is is a problem with\nthe building itself?", shape=diamond]
+Qconsumable[label="Does a consumable item\nneed to be replaced?\nE.g. lightbulb, toilet paper", shape=diamond]
+Qusage  [label="Is it a problem with\nhow we are using the space?", shape=diamond]
+Qvending   [label="Is it a problem with\na machine with a\nVENDOR Company\n label on it?", shape=diamond]
+Qempty     [label="Would it be a problem\nfor the next tenant if \nwe were to leave?", shape=diamond]
+
+# responsible parties
+Facilities [     label="Action: C&S", shape=tripleoctagon, color=black, fillcolor=red, style=filled, peripheries=2]
+Landlord [label="Action: Landlord", shape=tripleoctagon, color=black, fillcolor=red, style=filled, peripheries=2]
+Vendor [  label="Action: Vendor", shape=tripleoctagon, color=black, fillcolor=red, style=filled, peripheries=2]
+
+# the chart
+problem -> Qbuilding [label="Think about your problem!"]
+
+Qbuilding -> Qconsumable [label="Yes", color="green"]
+Qbuilding -> Qusage [label="No", color="red"]
+
+Qempty -> Landlord [label="Yes", color="green"]
+Qconsumable -> Facilities [label="Yes", color="green"]
+Qconsumable -> Qempty [label="No", color="red"]
+Qusage -> Facilities [label="Yes", color="green"]
+
+Qempty -> Facilities [label="No", color="red"]
+Qvending -> Facilities [label="No", color="red"]
+Qvending -> Vendor [label="Yes", color="green"]
+
+Qusage -> Qvending [label="No", color="red"]
+}
