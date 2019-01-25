@@ -16,6 +16,13 @@ Before doing anything inside the network closet, check these things:
     * Unifi Controlller: https://10.10.220.22
     * Yes: Internet is down! ISP or gateway is suspect.
     * No: Intranet is down! Switch or gateway is suspect.
+1. Is Comcast experiencing an outage?
+    * Check known outage sites using your mobile device:
+        * https://www.downdetector.com/status/comcast-xfinity/map
+        * https://outage.report/us/comcast/map
+        * https://twitter.com/comcastcares
+    * Yes: **DO NOTHING** except powercycling the Comcast modem/router.
+    * No: Proceed with troubleshooting steps.
 
 Internet outage troubleshooting quick steps, after each check the above:
 
@@ -25,3 +32,15 @@ Internet outage troubleshooting quick steps, after each check the above:
     1. Access the local Unifi controller at https://10.10.220.22 using the appropriate credentials.
     1. Go to https://10.10.220.22:8443/manage/site/default/devices/1/50
     1. Restart the WiFi access points by clicking Restart. Do not Upgrade the access points, though.
+
+## Next Resort
+
+Contact Justin Reese because he'll probably…
+
+## Last Resort
+
+Contact Colin Dean and he'll try to walk you through the troubleshooting steps if he cannot come to the workspace quickly.
+
+## Help me, Obi-Wan Kenobi…
+
+Call Meta Mesh Wireless Communities at (412) 223-4253 and tell them that Colin Dean directed you to contact them if neither he nor Justin Reese could be reached.
