@@ -2,7 +2,7 @@
 
 ## Troubleshooting guides
 
-[WiFi and Internet Outage Troubleshooting Guide](/WiFi and Internet Outage Troubleshooting Guide.md)
+* [WiFi and Internet Outage Troubleshooting Guide](WiFi%20and%20Internet%20Outage%20Troubleshooting%20Guide.md)
 
 ## Physical space issue management
 
