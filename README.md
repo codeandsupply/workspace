@@ -1,5 +1,9 @@
 # Workspace and Event Organizer Issue Tracker
 
+## Hosting at the C&S Event Space
+
+Please follow [these directions](hosting-events/README.md) for set up and tear down of all events.
+
 ## Troubleshooting guides
 
 * [WiFi and Internet Outage Troubleshooting Guide](WiFi%20and%20Internet%20Outage%20Troubleshooting%20Guide.md)
