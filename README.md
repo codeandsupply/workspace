@@ -1,3 +1,11 @@
+:warning: :warning:
+
+The canonical repository is at https://gitlab.com/codeandsupply/workspace-issues.
+
+This repository may be out of sync.
+
+:warning: :warning:
+
 # Workspace and Event Organizer Issue Tracker
 
 ## Hosting at the C&S Event Space
