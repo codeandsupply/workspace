@@ -1,8 +1,8 @@
 :warning: :warning:
 
-The canonical repository is at https://gitlab.com/codeandsupply/workspace-issues.
+The canonical repository was moved to https://gitlab.com/codeandsupply/workspace-issues.
 
-This repository may be out of sync.
+Do not use this repository for anything.
 
 :warning: :warning:
 
